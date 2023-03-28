@@ -1,5 +1,5 @@
-include <stdio.h>
-include <conio.h>
+#include <stdio.h>
+#include <conio.h>
 struct HonSo
 {
     int SoNguyen, TuSo, MauSo;
