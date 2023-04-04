@@ -1,3 +1,4 @@
+https://blog.luyencode.net/thuat-toan-sap-xep-chen/
 #include<stdio.h>
 #include<math.h>
 void ChenTrucTiep(int a[], int n){
@@ -15,10 +16,10 @@ void ChenTrucTiep(int a[], int n){
 }
 void main()
 {
-	int a[5] = {8, 4, 1, 6, 5};
-	ChenTrucTiep(a, 5);
+	int a[7] = {37, 1, 41, 22, 15, 19, 33};
+	ChenTrucTiep(a, 7);
 	cout<<"Mang sau khi sap xep:"<<endl;
-	for(int i=0;i<5;i++){
+	for(int i=0;i<7;i++){
 		cout<<a[i]<<" ";
 	}
 	system("pause");
